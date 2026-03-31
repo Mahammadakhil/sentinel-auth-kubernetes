@@ -1,0 +1,36 @@
+# --- General ---
+.DS_Store
+.env
+*.log
+*.tmp
+
+# --- Frontend (assuming React/Vue/Angular) ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+
+# --- Backend (app/) ---
+# Python
+app/__pycache__/
+app/*.py[cod]
+app/venv/
+app/.venv/
+app/env/
+
+# Node.js (if backend is Node)
+app/node_modules/
+app/npm-debug.log
+
+# Go (if backend is Go)
+app/bin/
+app/vendor/
+
+# --- Kubernetes / K3s ---
+# Do NOT ignore your .yml files, but DO ignore local cluster configs
+k3s/.kubeconfig
+k3s/local-dev-secrets.yaml
+
+# --- Media & Documentation ---
+# Only ignore screenshots if you don't want them in the repo
+# screenshots/
