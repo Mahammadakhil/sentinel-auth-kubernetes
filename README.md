@@ -27,14 +27,14 @@
 
 ## 🚀 Key Features
 
-✅ User Registration System
-✅ REST API with FastAPI
-✅ Kubernetes Deployment (Pods, Services, PVC)
-✅ Service Communication via Cluster DNS
-✅ Prometheus Metrics (`/metrics` endpoint)
-✅ Grafana Dashboard Visualization
-✅ Real-time Request Monitoring
-✅ Error Handling & Logging
+✅ User Registration System  
+✅ REST API with FastAPI  
+✅ Kubernetes Deployment (Pods, Services, PVC)  
+✅ Service Communication via Cluster DNS  
+✅ Prometheus Metrics (`/metrics` endpoint)  
+✅ Grafana Dashboard Visualization  
+✅ Real-time Request Monitoring  
+✅ Error Handling & Logging  
 ✅ Debugged Real-World Issues (Networking, Routing, Metrics)
 
 ---
@@ -138,16 +138,6 @@ rate(http_request_duration_seconds_count[1m])
 * Debugging Distributed Systems
 * API Design & Integration
 * DevOps Best Practices
----
-
-## 🚀 Future Improvements
-
-* 🔐 JWT Authentication (Login system)
-* 🌐 Ingress Controller (Remove NodePort)
-* 🔔 Alertmanager Integration (Email/Slack alerts)
-* 📦 CI/CD Pipeline (GitHub Actions)
-* 📜 Centralized Logging (Loki + Grafana)
-
 ---
 
 ## 👨‍💻 Author
